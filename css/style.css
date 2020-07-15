@@ -20,6 +20,10 @@ a img:hover {
 	border-bottom: 3px solid #000;
 	padding-bottom: 0.5rem;
 }
+.underline1 {
+	border-bottom: 1.5px solid rgb(151, 151, 151);
+	padding-bottom: 0.5rem;
+}
 .center {
 	text-align: center;
 }

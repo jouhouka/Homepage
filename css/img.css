@@ -44,23 +44,34 @@ figure.cp_caption figcaption::before {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 	background-color: #fff;
 }
-figure.cp_caption h2,
-figure.cp_caption p {
+figure.cp_caption h2{
+	margin: 0 0 5px;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	        transition: opacity 0.3s, transform 0.3s;
+	opacity: 1;
+}
+figure.cp_caption a {
 	margin: 0 0 5px;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	        transition: opacity 0.3s, transform 0.3s;
 	opacity: 0;
 }
-figure.cp_caption a {
+/* figure.cp_caption a {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	color: #fff;
+	color: #fff; */
 }
 figure.cp_caption:hover img {
-	opacity: 0.35;
+    opacity: 0.35;
+    width: 100vw;
+    /* width: 30%; */
+    height: auto;
+    padding:2px;
+    border : solid 1px;
+    text-align: center;
 }
 figure.cp_caption:hover figcaption h2 {
 	-webkit-transition-delay: 0.3s;
@@ -69,10 +80,11 @@ figure.cp_caption:hover figcaption h2 {
 	        transform: translate3d(0%, 0%, 0);
 	opacity: 1;
 }
-figure.cp_caption:hover figcaption p {
+figure.cp_caption:hover figcaption a {
 	-webkit-transition-delay: 0.2s;
 	        transition-delay: 0.2s;
-	opacity: 0.9;
+    opacity: 0.9;
+    color: #fff;
 }
 figure.cp_caption:hover figcaption::before {
 	top: 30px;
@@ -80,5 +92,5 @@ figure.cp_caption:hover figcaption::before {
 	-webkit-transition-delay: 0s;
 	        transition-delay: 0s;
 	opacity: 1;
-	background: rgba(27, 37, 56, 0);
+	background: rgba(170, 173, 180, 0);
 }
