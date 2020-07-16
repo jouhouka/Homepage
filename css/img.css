@@ -22,7 +22,7 @@ figure.cp_caption img {
 	-webkit-transition: opacity 0.3s;
 	        transition: opacity 0.3s;
     opacity: 1;
-    filter:brightness(70%);
+    filter:brightness(60%);
 }
 figure.cp_caption figcaption {
 	position: absolute;
@@ -49,6 +49,7 @@ figure.cp_caption figcaption::before {
 	background-color: #fff;
 }
 figure.cp_caption h2{
+    /* font-size: 3.2vw; */
     margin: 0 0 5px;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	        transition: opacity 0.3s, transform 0.3s;
