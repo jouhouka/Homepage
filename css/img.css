@@ -79,7 +79,8 @@ figure.cp_caption:hover img {
     /* padding:2px; */
     /* border : solid 1px; */
     text-align: center;
-}*/
+    display: block;
+}
 figure.cp_caption:hover figcaption h2 {
 	-webkit-transition-delay: 0.3s;
 	        transition-delay: 0.3s;
