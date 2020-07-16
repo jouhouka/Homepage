@@ -56,6 +56,13 @@ figure.cp_caption a {
 	        transition: opacity 0.3s, transform 0.3s;
 	opacity: 0;
 }
+figure.cp_caption button {
+	margin: 0 0 5px;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	        transition: opacity 0.3s, transform 0.3s;
+	opacity: 0;
+}
+
 /* figure.cp_caption a {
 	position: absolute;
 	top: 0;
@@ -86,6 +93,13 @@ figure.cp_caption:hover figcaption a {
     opacity: 0.9;
     color: #fff;
 }
+figure.cp_caption:hover figcaption button {
+	-webkit-transition-delay: 0.2s;
+	        transition-delay: 0.2s;
+    opacity: 0.9;
+    color: #fff;
+}
+
 figure.cp_caption:hover figcaption::before {
 	top: 30px;
 	bottom: 30px;
