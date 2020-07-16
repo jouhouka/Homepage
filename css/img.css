@@ -74,8 +74,8 @@ figure.cp_caption button {
 }*/
 figure.cp_caption:hover img {
     /* opacity: 0.35; */
-    width: 100vw;
-    height: auto;
+    /* width: 100vw;
+    height: auto; */
     /* padding:2px; */
     /* border : solid 1px; */
     text-align: center;
