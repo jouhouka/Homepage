@@ -2,13 +2,13 @@
 @import url("grid.css");
 
 img {
-    /* max-width:100%;
-    min-width: 30%; */
+    max-width:100%;
+    min-width: 30%;
     /* height: auto;高さ自動 */
     object-fit: cover;
-    width: 100%;
+    /* width: 100%;
     height: 100%;
-    
+     */
 }
 a {
     /* display:block; */
