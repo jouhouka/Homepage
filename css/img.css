@@ -15,10 +15,11 @@ figure.cp_caption * {
 	        box-sizing: border-box;
 }
 figure.cp_caption img {
-	width: 100%;
+	/* width: 100%; */
 	-webkit-transition: opacity 0.3s;
 	        transition: opacity 0.3s;
-	opacity: 1;
+    opacity: 1;
+    filter:brightness(70%);
 }
 figure.cp_caption figcaption {
 	position: absolute;
@@ -45,7 +46,7 @@ figure.cp_caption figcaption::before {
 	background-color: #fff;
 }
 figure.cp_caption h2{
-	margin: 0 0 5px;
+    margin: 0 0 5px;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	        transition: opacity 0.3s, transform 0.3s;
 	opacity: 1;
@@ -69,17 +70,16 @@ figure.cp_caption button {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	color: #fff; */
-}
+	color: #fff; 
+}*/
 figure.cp_caption:hover img {
-    opacity: 0.35;
+    /* opacity: 0.35; */
     width: 100vw;
-    /* width: 30%; */
     height: auto;
-    padding:2px;
-    border : solid 1px;
+    /* padding:2px; */
+    /* border : solid 1px; */
     text-align: center;
-}
+}*/
 figure.cp_caption:hover figcaption h2 {
 	-webkit-transition-delay: 0.3s;
 	        transition-delay: 0.3s;
@@ -107,4 +107,8 @@ figure.cp_caption:hover figcaption::before {
 	        transition-delay: 0s;
 	opacity: 1;
 	background: rgba(170, 173, 180, 0);
+}
+
+figure.cp_caption img {
+    display: block;
 }
