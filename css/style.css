@@ -254,3 +254,8 @@ footer h5 {
   .grad-trigger:checked ~ .grad-item::before {
     display: none; /*チェックされていたら、grad-itemのbeforeを非表示にする*/
   }
+
+  /* 隠しページ */
+  .kakushi-page a{
+      color: white;
+  }
