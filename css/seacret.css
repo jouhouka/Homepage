@@ -3,17 +3,20 @@
     color: azure;
     background-color: black;
     text-align: center;
+    /* padding: 30 30; */
 }
 
 p{
     font-size: small;
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%); 
-	padding: 15px 30px;
-	width: 300px;
+	/* transform: translate(-50%, -50%);  */
+	/* padding: 15px 30px; */
+    width: 100%;
+    padding-top: 3rem;
+    ;
 }
 
 a{
@@ -27,7 +30,7 @@ table{
 
 .nagare1 p {
     margin:0;
-    /* padding-left:724px; アニメーションの範囲 */
+    padding-left:100%; /*アニメーションの範囲*/
     /* padding-right: 0px; */
     width : 100%;
     overflow: hidden;
@@ -35,7 +38,7 @@ table{
     white-space:nowrap;
     animation-name:nagare1; /*アニメーションのクラス名*/
     animation-timing-function:linear;/*アニメーションのタイミング・進行割合の指定*/
-    animation-duration:5s; /*アニメーションの速度*/
+    animation-duration:10s; /*アニメーションの速度*/
     animation-iteration-count:infinite;/*アニメーションの動作回数*/
     /* animation-direction: reverse; */
     }
@@ -60,16 +63,20 @@ table{
         width: 300px;
     }
 
-.causion a{
-    color: crimson;
-    width: 300px;
-    transform: translate(-50%, -50%); 
-    text-align: center;
-    font-size: small;
-}
-.causion h1{
-    font-size: larger;
+.causion .box{
+    margin: 2em auto;
+    padding: 1em;
+    width: 30%;
+    font-size: x-large;
+    background-color: black; /* 背景色 */
+    border: 1px solid #fff; /* 枠線 */}
+
+
+.causion .poem{
+    font-family: fantasy;
+    font-size: medium;
     color: blueviolet;
+
 }
 
 .cushion h1{
@@ -94,7 +101,7 @@ table{
 
 .first-text{
     font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-    padding-top: 20%;
+    /* padding-top: 20%; */
     padding-left: 20%;
     display: block;
     text-align: left;
@@ -118,7 +125,52 @@ table{
     text-align: left;
     color: rgb(64, 226, 43);
 }
+.first-text h4{
+    display: block;
+    text-align: left;
+    color: white;
+}
+
  .first-text button{
     color:black;
     background-color: rgb(64, 226, 43);
  }
+
+ .first-text a{
+     color:aqua;
+     padding-bottom: 20rem;
+ }
+
+ .underline{
+     text-decoration: dotted;
+ }
+
+ .link a{
+     display: inline;
+     color: darkgray;
+ }
+ .link .kakko{
+     color: gray;
+ }
+
+ .link h2{
+     color: rgb(64, 226, 43);
+ }
+
+ .link_kiri{
+     text-decoration: underline;
+ }
+
+ .board{
+    position:relative;
+    width:100%;
+    height:0;
+    padding-top:75%;
+}
+.board iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
