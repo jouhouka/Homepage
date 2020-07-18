@@ -1,0 +1,93 @@
+@charset "UTF-8";
+*{
+    color: azure;
+    background-color: black;
+    text-align: center;
+}
+
+p{
+    font-size: small;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	padding: 15px 30px;
+	width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+table{
+    padding-top: 3rem;
+    margin: auto;
+}
+
+.nagare1 p {
+    margin:0;
+    /* padding-left:724px; アニメーションの範囲 */
+    /* padding-right: 0px; */
+    width : 100%;
+    overflow: hidden;
+    display:inline-block; 
+    white-space:nowrap;
+    animation-name:nagare1; /*アニメーションのクラス名*/
+    animation-timing-function:linear;/*アニメーションのタイミング・進行割合の指定*/
+    animation-duration:5s; /*アニメーションの速度*/
+    animation-iteration-count:infinite;/*アニメーションの動作回数*/
+    /* animation-direction: reverse; */
+    }
+    @keyframes nagare1 {/*動作範囲(上級者向けの設定)*/
+      from   { transform: translate(0%);} 
+      99%,to { transform: translate(-100%);}
+    }
+
+.seacret-menu a{
+    color: darkgray;
+    font-size: small;
+    text-decoration: underline;
+}
+    
+.seacret-menu p{
+        font-size: small;
+        text-align: center;
+        top: 10%;
+        left: 20%;
+        transform: translate(-50%, -50%); 
+        padding: 15px 30px;
+        width: 300px;
+    }
+
+.causion a{
+    color: brown;
+    width: 300px;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    font-size: small;
+}
+.causion h1{
+    font-size: larger;
+    color: blueviolet;
+}
+
+.cushion h1{
+    font-size: large;
+    color: blueviolet;
+    padding-top: 10rem;
+}
+.cushion a{
+    color: darkgray;
+    line-height: 2;
+    font-size: small;
+}
+.enter{
+    font-family: cursive;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.aho{
+    color: chartreuse;
+}
